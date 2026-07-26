@@ -1,16 +1,39 @@
-# React + Vite
+# Clarify AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## From Confusion to Clarity
 
-Currently, two official plugins are available:
+Clarify AI is an AI-powered decision coach that helps people make better decisions about education, career, skills, jobs, and personal growth.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Problem
 
-## React Compiler
+People often struggle with important decisions because they do not have a structured way to compare options and understand risks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Solution
 
-## Expanding the ESLint configuration
+Clarify AI uses Artificial Intelligence to analyze decisions, compare choices, show pros and cons, evaluate risks, and provide personalized recommendations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- AI-powered decision analysis
+- Pros and Cons comparison
+- Risk evaluation
+- Confidence score
+- Personalized action plan
+- Modern SaaS-style interface
+
+## Technologies Used
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Groq AI API
+
+## Live Demo
+
+https://clarify-ai-mocha.vercel.app
+
+## Run Locally
+
+Install dependencies:
+npm install
