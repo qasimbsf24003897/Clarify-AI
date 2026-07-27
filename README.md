@@ -1,20 +1,48 @@
-📖 Project Description
-Clarify AI isn't just another chatbot. It is a high-performance Decision Coaching Platform designed to solve the "Paradox of Choice."
-Most AI tools provide generic answers to complex life questions. Clarify AI reverses the flow. Instead of giving immediate (and often shallow) advice, it utilizes Iterative Inquiry. It asks personalized, context-aware follow-up questions to understand your unique situation before generating a structured, data-driven recommendation.
+## 📖 Project Description
+
+Clarify AI isn't just another chatbot. It is a high-performance *Decision Coaching Platform* designed to solve the *"Paradox of Choice."*
+
+Most AI tools provide generic answers to complex life questions.
+
+Clarify AI reverses the flow. Instead of giving immediate (and often shallow) advice, it utilizes *Iterative Inquiry*.
+
+It asks personalized, context-aware follow-up questions to understand your unique situation before generating a structured, data-driven recommendation.
+
 Whether you are a career switcher, an entrepreneur, or a student, Clarify AI transforms uncertainty into a documented, actionable roadmap.
-🚀 Live Demo
-Experience the clarity: https://clarify-ai-mocha.vercel.app/
-💻 GitHub Repository
-Source Code: https://github.com/qasimbsf24003897/Clarify-AI.git
-✨ Features
-🧠 AI Decision Analysis: Advanced reasoning powered by Llama 3.3 70B via Groq for sub-second latency.
-❓ Iterative Inquiry: Personalized follow-up questions that dig deeper into your specific constraints.
-📊 Confidence & Risk Meters: Visual data visualization to quantify the viability of your decision.
-🗺️ Roadmap Generator: A step-by-step execution plan for your chosen path.
-📂 Decision History: Persistent storage to track how your thinking evolves over time.
-📄 PDF Report Generation: Professional, exportable reports for offline review or sharing with mentors.
-🎙️ Voice Input: Hands-free decision brainstorming for the modern professional.
-📱 Responsive Design: Premium UI/UX experience across mobile, tablet, and desktop.
+
+---
+
+## 🚀 Live Demo
+
+*Experience the clarity:*  
+https://clarify-ai-mocha.vercel.app/
+
+---
+
+## 💻 GitHub Repository
+
+*Source Code:*  
+https://github.com/qasimbsf24003897/Clarify-AI.git
+
+---
+
+## ✨ Features
+
+- 🧠 *AI Decision Analysis* – Advanced reasoning powered by Llama 3.3 70B via Groq for sub-second latency.
+
+- ❓ *Iterative Inquiry* – Personalized follow-up questions that dig deeper into your specific constraints.
+
+- 📊 *Confidence & Risk Meters* – Visual insights to evaluate the confidence and potential risks of your decision.
+
+- 🗺️ *Roadmap Generator* – Generates a step-by-step execution plan for your chosen path.
+
+- 📂 *Decision History* – Save and review previous AI-generated decision analyses.
+
+- 📄 *PDF Report Generation* – Download professional decision reports for future reference.
+
+- 🎙️ *Voice Input* – Speak your decision instead of typing.
+
+- 📱 *Responsive Design* – Optimized experience across desktop, tablet, and mobile devices.
 📸 Screenshots
 The Journey to Clarity
 ## 📸 Screenshots
@@ -224,4 +252,4 @@ Special thanks to:
 - The **Open Source Community** for creating incredible libraries and resources that made this project possible.
 ## 📄 License
 
-This project is licensed under the MIT License. See the LICENSE.md file for details.
+This project is licensed under the MIT License. See [LICENSE.md](./LICENSE.md) for details.
