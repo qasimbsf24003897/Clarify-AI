@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import "./styles/app.css";
 
@@ -28,6 +28,8 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const [result, setResult] = useState(null);
+  const [showQuestions, setShowQuestions] = useState(false);
+  const questionsRef = useRef(null);
 
  const [history, setHistory] = useState(() => {
 
@@ -60,16 +62,28 @@ const clearHistory = () => {
   setHistory([]);
 
 };
+const showFollowUpQuestions = () => {
+  if (!decision.trim()) {
+    alert("Please enter your decision.");
+    return;
+  }
+
+  setResult(null);
+  setShowQuestions(true);
+
+  setTimeout(() => {
+  questionsRef.current?.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}, 100);
+};
   const handleAnalyze = async () => {
 
-    if (!decision.trim()) {
-      alert("Please enter your decision.");
-      return;
-    }
 
-    setLoading(true);
+  setLoading(true);
 
-    try {
+  try {
 
       const finalDecision = `
 Decision:
@@ -78,13 +92,13 @@ ${decision}
 Education:
 ${answers.education}
 
-Programming Level:
+Previous Experience:
 ${answers.level}
 
 Daily Study Hours:
 ${answers.hours}
 
-Career Goal:
+Main Goal:
 ${answers.goal}
 
 Preferred Path:
@@ -142,20 +156,23 @@ ${answers.path}
 
       <Hero />
 
-      <FollowUpQuestions
-        answers={answers}
-        setAnswers={setAnswers}
-        handleSubmit={handleAnalyze}
-        loading={loading}
-      />
+    <DecisionBox
+  decision={decision}
+  setDecision={setDecision}
+  handleAnalyze={showFollowUpQuestions}
+  loading={loading}
+/>
 
-      <DecisionBox
-        decision={decision}
-        setDecision={setDecision}
-        handleAnalyze={handleAnalyze}
-        loading={loading}
-      />
-
+{showQuestions && (
+  <div ref={questionsRef}>
+    <FollowUpQuestions
+      answers={answers}
+      setAnswers={setAnswers}
+      handleSubmit={handleAnalyze}
+      loading={loading}
+    />
+  </div>
+)}
       {result && (
 
         <>

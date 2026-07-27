@@ -37,7 +37,7 @@ function FollowUpQuestions({
 
         <div className="question">
 
-          <label>2. What is your programming level?</label>
+         <label>2. Do you have any previous experience related to your goal?</label>
 
           <select
             value={answers.level}
@@ -48,10 +48,11 @@ function FollowUpQuestions({
               })
             }
           >
-            <option value="">Select</option>
-            <option>Beginner</option>
-            <option>Intermediate</option>
-            <option>Advanced</option>
+       <option value="">Select</option>
+<option>No Experience</option>
+<option>Basic Knowledge</option>
+<option>Some Experience</option>
+<option>Experienced</option>
           </select>
 
         </div>
