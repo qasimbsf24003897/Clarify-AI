@@ -1,6 +1,6 @@
 export async function analyzeDecision(decision) {
 
-  const response = await fetch("/api/analyze"), {
+  const response = await fetch("/api/analyze", {
 
     method: "POST",
 
